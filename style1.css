@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 5, 21, 255);
+  margin: 0;
+}
+
+.p2head {
+  color: pink;
+  text-align: center;
+}
+
+.image-slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* img {
+width: 100%
+
+} */
+
+.head-pic {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: beige;
+}
+
+#slider {
+  border-radius: 30%;
+  width: 80%;
+  margin-left: 40px;
+}
+
+.next {
+  width: 50%;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 30px;
+  text-align: center;
+  color: beige;
+  background-color: red;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  /* animation: next 0.5s infinite; */
+}
+
+@keyframes next {
+  0% {
+    opacity: 1;
+    color: white;
+  }
+  100% {
+    opacity: 0;
+    color: blue;
+  }
+}
+
+.next:hover {
+  background-color: burlywood;
+}
+
+.writeup {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+#music{
+  align-self: center;
+
+ 
+  
+}
